@@ -284,7 +284,7 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Tank});
-            this.dataGridView2.Location = new System.Drawing.Point(154, 32);
+            this.dataGridView2.Location = new System.Drawing.Point(145, 32);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(143, 194);
             this.dataGridView2.TabIndex = 8;
@@ -307,9 +307,9 @@
             // 
             // splitter2
             // 
-            this.splitter2.Location = new System.Drawing.Point(148, 16);
+            this.splitter2.Location = new System.Drawing.Point(142, 16);
             this.splitter2.Name = "splitter2";
-            this.splitter2.Size = new System.Drawing.Size(156, 213);
+            this.splitter2.Size = new System.Drawing.Size(150, 213);
             this.splitter2.TabIndex = 5;
             this.splitter2.TabStop = false;
             // 
@@ -325,9 +325,9 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(9, 51);
+            this.comboBox1.Location = new System.Drawing.Point(6, 51);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(130, 21);
+            this.comboBox1.Size = new System.Drawing.Size(133, 21);
             this.comboBox1.TabIndex = 2;
             // 
             // label5
@@ -343,7 +343,7 @@
             // 
             this.splitter1.Location = new System.Drawing.Point(3, 16);
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(145, 213);
+            this.splitter1.Size = new System.Drawing.Size(139, 213);
             this.splitter1.TabIndex = 1;
             this.splitter1.TabStop = false;
             // 

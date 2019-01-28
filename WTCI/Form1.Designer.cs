@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.инструментыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,6 +66,7 @@
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.Tank = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -72,6 +74,7 @@
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -82,7 +85,7 @@
             this.оПрограммеToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(952, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(961, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -108,9 +111,9 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 490);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 477);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(952, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(961, 22);
             this.statusStrip1.TabIndex = 9;
             // 
             // toolStripStatusLabel1
@@ -133,7 +136,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 100;
             this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridView1.Size = new System.Drawing.Size(603, 413);
+            this.dataGridView1.Size = new System.Drawing.Size(603, 437);
             this.dataGridView1.TabIndex = 2;
             // 
             // Nickname
@@ -329,18 +332,18 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(0, 446);
+            this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 40);
+            this.button1.Size = new System.Drawing.Size(96, 40);
             this.button1.TabIndex = 5;
             this.button1.Text = "<= Пердыдущая страница";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(231, 446);
+            this.button2.Location = new System.Drawing.Point(184, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(146, 40);
+            this.button2.Size = new System.Drawing.Size(96, 40);
             this.button2.TabIndex = 6;
             this.button2.Text = "Следующая страница =>";
             this.button2.UseVisualStyleBackColor = true;
@@ -348,7 +351,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(152, 446);
+            this.label8.Location = new System.Drawing.Point(105, 7);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(73, 13);
             this.label8.TabIndex = 7;
@@ -356,9 +359,9 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(171, 466);
+            this.textBox6.Location = new System.Drawing.Point(105, 23);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(35, 20);
+            this.textBox6.Size = new System.Drawing.Size(73, 20);
             this.textBox6.TabIndex = 8;
             // 
             // toolStripStatusLabel2
@@ -383,20 +386,31 @@
             this.Tank.HeaderText = "Танк";
             this.Tank.Name = "Tank";
             // 
+            // panel1
+            // 
+            this.panel1.AutoSize = true;
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.textBox6);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Location = new System.Drawing.Point(609, 418);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(283, 46);
+            this.panel1.TabIndex = 10;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(952, 512);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(961, 499);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormMain";
             this.Text = "WTCI";
@@ -411,6 +425,8 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -455,6 +471,7 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tank;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

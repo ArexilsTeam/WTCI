@@ -281,7 +281,7 @@
             // 
             this.splitter2.Location = new System.Drawing.Point(154, 16);
             this.splitter2.Name = "splitter2";
-            this.splitter2.Size = new System.Drawing.Size(178, 213);
+            this.splitter2.Size = new System.Drawing.Size(162, 213);
             this.splitter2.TabIndex = 5;
             this.splitter2.TabStop = false;
             // 
@@ -372,9 +372,9 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Tank});
-            this.dataGridView2.Location = new System.Drawing.Point(154, 32);
+            this.dataGridView2.Location = new System.Drawing.Point(163, 32);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(143, 197);
+            this.dataGridView2.Size = new System.Drawing.Size(143, 194);
             this.dataGridView2.TabIndex = 8;
             // 
             // Tank

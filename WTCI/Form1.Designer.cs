@@ -57,7 +57,6 @@
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label7 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -199,6 +198,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(60, 20);
             this.textBox3.TabIndex = 7;
+            this.textBox3.Text = "1700";
             // 
             // label4
             // 
@@ -215,6 +215,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(46, 20);
             this.textBox2.TabIndex = 5;
+            this.textBox2.Text = "52";
             // 
             // label3
             // 
@@ -231,6 +232,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(73, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.Text = "10000";
             // 
             // label2
             // 
@@ -262,7 +264,6 @@
             this.groupBox2.Controls.Add(this.dataGridView3);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Location = new System.Drawing.Point(609, 180);
             this.groupBox2.Name = "groupBox2";
@@ -276,9 +277,10 @@
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1});
-            this.dataGridView3.Location = new System.Drawing.Point(9, 85);
+            this.dataGridView3.Location = new System.Drawing.Point(6, 72);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(145, 141);
+            this.dataGridView3.ReadOnly = true;
+            this.dataGridView3.Size = new System.Drawing.Size(145, 154);
             this.dataGridView3.TabIndex = 9;
             // 
             // dataGridViewTextBoxColumn1
@@ -286,11 +288,12 @@
             this.dataGridViewTextBoxColumn1.Frozen = true;
             this.dataGridViewTextBoxColumn1.HeaderText = "Танк";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 69);
+            this.label7.Location = new System.Drawing.Point(6, 56);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(44, 13);
             this.label7.TabIndex = 7;
@@ -300,27 +303,100 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "123",
-            "2312"});
-            this.comboBox1.Location = new System.Drawing.Point(9, 45);
+            "---СССР---",
+            "Т-100 ЛТ",
+            "Т-62А",
+            "Объект 907",
+            "Объект 140",
+            "К-91",
+            "Т-22 ср.",
+            "ИС-4",
+            "ИС-7",
+            "Объект 705А",
+            "Объект 277",
+            "Объект 279 ранний",
+            "Объект 260",
+            "Объект 268",
+            "Объект 268/4",
+            "Объект 261",
+            " ",
+            "---Германия---",
+            "Rheinmetall Panzerwagen",
+            "E 50 Ausf. M",
+            "Leopard 1",
+            "MAUS",
+            "E 100",
+            "Pz.Kpfw. VII",
+            "VK 72.01 (K)",
+            "Jagdpanzer E 100",
+            "Grille 15",
+            "G.W. E 100",
+            " ",
+            "---США---",
+            "XM551 Sheridan",
+            "M48A5 Patton",
+            "M60",
+            "T95E6",
+            "T110E5",
+            "T57 Heavy Tank",
+            "T110E4",
+            "T110E3",
+            "T92 HMC",
+            " ",
+            "---Китай---",
+            "WZ-132-1",
+            "121",
+            "121B",
+            "113",
+            "WZ-111 model 5A",
+            "WZ-113G FT",
+            " ",
+            "---Франция---",
+            "AMX 13 105",
+            "Bat.-Châtillon 25 t",
+            "AMX 30 B",
+            "AMX 50 B",
+            "AMX M4 mle. 54",
+            "AMX 50 Foch (155)",
+            "AMX 50 Foch B",
+            "Bat.-Châtillon 155 58",
+            " ",
+            "---Великобритания---",
+            "Centurion Action X",
+            "FV215b",
+            "Super Conqueror",
+            "T95/FV4201 Chieftain",
+            "FV215b (183)",
+            "FV4005 Stage II",
+            "FV217 Badger",
+            "Conqueror Gun Carriage",
+            " ",
+            "---Япония---",
+            "STB-1",
+            "Type 5 Heavy",
+            " ",
+            "---Чехословакия---",
+            "TVP T 50/51",
+            " ",
+            "---Швеция---",
+            "Kranvagn",
+            "Strv 103B",
+            " ",
+            "---Польша---",
+            "60TP Lewandowskiego",
+            " ",
+            "---Италия---",
+            "Progetto M40 mod. 65"});
+            this.comboBox1.Location = new System.Drawing.Point(6, 32);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(145, 21);
             this.comboBox1.TabIndex = 2;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 16);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Выберите технику:";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 29);
+            this.label6.Location = new System.Drawing.Point(6, 16);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(57, 13);
             this.label6.TabIndex = 3;
@@ -337,7 +413,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(96, 3);
+            this.button2.Location = new System.Drawing.Point(97, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(59, 40);
             this.button2.TabIndex = 6;
@@ -355,7 +431,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(63, 23);
+            this.textBox6.Location = new System.Drawing.Point(66, 22);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(27, 20);
             this.textBox6.TabIndex = 8;
@@ -435,8 +511,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label8;
@@ -445,6 +519,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

@@ -443,7 +443,7 @@
             this.panel1.Controls.Add(this.textBox6);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Location = new System.Drawing.Point(609, 418);
+            this.panel1.Location = new System.Drawing.Point(609, 422);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(160, 46);
             this.panel1.TabIndex = 10;
@@ -465,6 +465,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WTCI";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

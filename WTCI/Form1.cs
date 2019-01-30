@@ -12,14 +12,11 @@ namespace WTCI
 {
     public partial class FormMain : Form
     {
-        public FormMain()
-        {
-            InitializeComponent();
-        }
+        public FormMain() => InitializeComponent();
 
-        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            dataGridView3.Rows.Add(comboBox1.Text);
         }
     }
 }
